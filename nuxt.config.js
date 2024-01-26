@@ -36,7 +36,7 @@ export default {
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
-    css: ["element-ui/lib/theme-chalk/index.css", "video.js/dist/video-js.css"],
+    css: ["element-ui/lib/theme-chalk/index.css", "vue-video-player/node_modules/video.js/dist/video-js.css"],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
     plugins: [

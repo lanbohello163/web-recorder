@@ -4,12 +4,12 @@ export default {
     target: "server",
     server: {
         port: 3003,
-        host: "0.0.0.0",
-        https: {
-            key: fs.readFileSync("./key.pem"),
-            cert: fs.readFileSync("./cert.pem"),
+        host: "0.0.0.0"
+        //https: {
+        //    key: fs.readFileSync("./key.pem"),
+        //    cert: fs.readFileSync("./cert.pem"),
             // ca: fs.readFileSync('./ca.pem')
-        },
+        //},
     },
     // generate: {
     //     subFolders: false,
